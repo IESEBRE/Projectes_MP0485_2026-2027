@@ -6,7 +6,7 @@ public class ContincVariables {
         //tipo nom;
         int dia=21;             //variable entera inicialitzada a 21
         String nomPila;         //variable String NO inicialitzada
-
+        int $;
         //El nom de les variables usa notació camelCase
 
 

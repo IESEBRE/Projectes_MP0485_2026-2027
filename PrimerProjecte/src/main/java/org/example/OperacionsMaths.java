@@ -1,6 +1,6 @@
 package org.example;
 
-public class Operacions {
+public class OperacionsMaths {
 
     public static void main(String[] args) {
         //Operacions
@@ -40,6 +40,13 @@ public class Operacions {
         IO.println(10%3);
 
         IO.println(10.0/3);
+
+        //Expressions aritmètiques complexes
+        IO.println( numero + valor * sumat / altreNumero - 45) ;
+        IO.println( numero + (valor * sumat) / altreNumero - 45) ;
+        IO.println( numero + ((valor * sumat) / altreNumero) - 45) ;
+        IO.println( (numero + ((valor * sumat) / altreNumero)) - 45) ;
+        IO.println( ((numero + ((valor * sumat) / altreNumero)) - 45)) ;
 
 
 

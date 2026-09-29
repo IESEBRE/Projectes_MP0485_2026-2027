@@ -48,6 +48,17 @@ public class OperacionsMaths {
         IO.println( (numero + ((valor * sumat) / altreNumero)) - 45) ;
         IO.println( ((numero + ((valor * sumat) / altreNumero)) - 45)) ;
 
+        //Combinació d'operació en assignació
+        numero= numero + 10;
+        numero += 10;
+        numero= numero - 10;
+        numero -= 10;
+        numero= numero * 10;
+        numero *= 10;
+        numero= numero / 10;
+        numero /= 10;
+        numero= numero % 10;
+        numero %= 10;
 
 
     }

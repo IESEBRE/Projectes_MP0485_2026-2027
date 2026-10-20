@@ -1,5 +1,7 @@
 package org.example.exercicis;
 
+import java.util.Scanner;
+
 public class Exercici3 {
 
     void main(){

@@ -1,5 +1,7 @@
 package exemples;
 
+import java.util.Scanner;
+
 public class Cadenes {
 
     void main(){
@@ -34,6 +36,10 @@ public class Cadenes {
         cadena2=new String("Hola");
         if(cadena == cadena2) IO.println("Són el mateix objecte");            //Comparem si el text introduït és el mateix objecte que la cadena "SI"
         if(cadena.equals(cadena2)) IO.println("Tenen el mateix contingut, encara que són objectes diferents");
+
+
+
+
     }
 
 }

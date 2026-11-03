@@ -41,7 +41,6 @@ public class Exercici2 {
         System.out.println("El caracter a buscar és el '"+caracter+"'.");
 
         //Comptem i mostrem la solució  --> usarem el mètode indexOf
-
         index=0;        //inicialitzo a la posició de més a l'esquerra
         do {
             index=frases.indexOf(caracter,index);

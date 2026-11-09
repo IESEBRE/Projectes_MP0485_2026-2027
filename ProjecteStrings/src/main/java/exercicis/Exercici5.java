@@ -10,7 +10,7 @@ public class Exercici5 {
         Scanner ent = new Scanner(System.in);
         int index, comptador=0;
 
-        //Llegir una text multifrase acabat en punt
+        //Llegir un text multifrase acabat en punt
         System.out.println("Escriu una o més línies de text i el '.' per acabar: ");
         do{
             //A cada iteració llegim una sola línia

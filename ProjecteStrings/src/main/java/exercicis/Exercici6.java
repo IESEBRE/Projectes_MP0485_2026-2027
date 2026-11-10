@@ -33,10 +33,7 @@ public class Exercici6 {
                         esParaula=true;                 //anoto que estic dins d'una paraula
                     }
                 }else{                                  //el caracter ÉS un separador
-                    //Farem tractament diferent segon si estem o no dins d'una paraula
-                    if(esParaula){
                        esParaula=false;                 //anoto que NO estic dins d'una paraula
-                    }
                 }
             }
 
